@@ -28,24 +28,28 @@ print("{:.2f}".format(one_matrix))
 
 
 # 2-Norm of a Matrix
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
 matrix=eval(input())
 two_matrix=np.linalg.norm(matrix,2)
 print("{:.2f}".format(two_matrix))
+```
 
 
 
 
 
 # Infinity Norm of a Matrix
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
 matrix=eval(input())
 inf_matrix=np.linalg.norm(matrix,np.inf)
 print("{:.2f}".format(inf_matrix))
+```
 
 
 
